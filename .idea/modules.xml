@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Enheritance.iml" filepath="$PROJECT_DIR$/Enheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LevelUp1/LevelUp1.iml" filepath="$PROJECT_DIR$/LevelUp1/LevelUp1.iml" />
     </modules>
   </component>
 </project>
