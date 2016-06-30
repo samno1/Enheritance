@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Enheritance.iml" filepath="$PROJECT_DIR$/Enheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/LevelUp1/LevelUp1.iml" filepath="$PROJECT_DIR$/LevelUp1/LevelUp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LevelUp2/LevelUp2.iml" filepath="$PROJECT_DIR$/LevelUp2/LevelUp2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercices/exercices.iml" filepath="$PROJECT_DIR$/exercices/exercices.iml" />
     </modules>
   </component>
 </project>
