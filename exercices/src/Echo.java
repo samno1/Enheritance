@@ -4,7 +4,15 @@
 public class Echo {
     int count =0;
 
-    void hello(){
-        System.out.println(" Привеееееееееет.....");
+    public int max(int x, int y){
+        int max;
+        if (x>y) {
+            max =x;
+            System.out.println(" Max = "+max);
+        }else {
+            max = y;
+            System.out.println(" Max = "+ max);
+        }
+        return max;
     }
 }
