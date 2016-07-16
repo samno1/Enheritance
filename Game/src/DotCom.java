@@ -6,7 +6,9 @@ import java.util.Scanner;
 public class DotCom {
     int[] locationCells;
     int numOfHits=0;
-
+    void setLocationCells(int[] locationCells){
+        this.locationCells=locationCells;
+    }
     public String checkYourself(String stringGuess ){
         int guess=Integer.parseInt(stringGuess);
         String result = "Мимоооо";
@@ -14,17 +16,15 @@ public class DotCom {
                 if (guess == cell) {
                     result = "Попал";
                     numOfHits++;
+                    break;
                 }
             }
             if (numOfHits == locationCells.length) {
-                result = "Потопил !!!!";
+                result = "Потопил";
         }
             System.out.println(result);
             return result;
 
-    }
-    void setLocationCells(int[] locationCells){
-        this.locationCells=locationCells;
     }
 
 

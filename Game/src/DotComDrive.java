@@ -13,13 +13,13 @@ public class DotComDrive {
         dot.setLocationCells(locations);
 
         boolean isAlive = true;
-           //
-                while (isAlive){
+                while (isAlive == true){
                     String guess =helper.getUserInput("Введите Число ");
                     String result = dot.checkYourself(guess);
                 numOfGuess++;
                     if (result.equals("Потопил")){
                         isAlive = false;
+                        System.out.println(" Игра окончена");
                         System.out.println(" Вам потребовалос "+ numOfGuess+" попыток(и)");
                     }
             }
