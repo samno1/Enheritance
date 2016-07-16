@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Enheritance.iml" filepath="$PROJECT_DIR$/Enheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercices2/Exercices2.iml" filepath="$PROJECT_DIR$/Exercices2/Exercices2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Game/Game.iml" filepath="$PROJECT_DIR$/Game/Game.iml" />
       <module fileurl="file://$PROJECT_DIR$/LevelUp1/LevelUp1.iml" filepath="$PROJECT_DIR$/LevelUp1/LevelUp1.iml" />
       <module fileurl="file://$PROJECT_DIR$/LevelUp2/LevelUp2.iml" filepath="$PROJECT_DIR$/LevelUp2/LevelUp2.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercices/exercice2.iml" filepath="$PROJECT_DIR$/exercices/exercice2.iml" />
