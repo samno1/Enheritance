@@ -5,25 +5,23 @@ import java.util.Scanner;
  */
 public class DotComDrive {
     public static void main(String[]args){
+        int numOfGuess=0;
+        GameHelper helper = new GameHelper();
         DotCom dot = new DotCom();
-        int[] locatons ={2,3,4};
-        dot.setLocationCells(locatons);
-           //
-                while (true){
-                Scanner scan = new Scanner(System.in);
-                System.out.print(" Введите число ячейка : ");
-                String userGuess = scan.nextLine();
-                String result = dot.checkYourself(userGuess);
+        int randomNum= (int)(Math.random()*5);
+        int [] locations = {randomNum,randomNum+1,randomNum+2};
+        dot.setLocationCells(locations);
 
-                String testResult = "Неудача";
-                if (result.equals("Попал")) {
-                    testResult = " Проиден";
-                }
-                if (result.equals("Потопил")) {
-                    testResult = " Конец игры";
-                    break;
-                }
-                System.out.println(testResult);
+        boolean isAlive = true;
+           //
+                while (isAlive){
+                    String guess =helper.getUserInput("Введите Число ");
+                    String result = dot.checkYourself(guess);
+                numOfGuess++;
+                    if (result.equals("Потопил")){
+                        isAlive = false;
+                        System.out.println(" Вам потребовалос "+ numOfGuess+" попыток(и)");
+                    }
             }
         }
 }
